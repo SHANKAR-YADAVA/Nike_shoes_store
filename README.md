@@ -1,12 +1,57 @@
-# React + Vite
+#  Nike Shoes Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and modern **Nike shoes landing page** built using **React** and **Tailwind CSS**. This project showcases a responsive UI design, product sections, and a stylish newsletter signup — all inspired by Nike’s clean branding aesthetics.
 
-Currently, two official plugins are available:
+##  Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-  Responsive landing page design
+-  Nike-style product hero section
+-  Email subscription input
+-  Mobile-first layout using Tailwind CSS utility classes
+-  Dark theme-ready (optional with Tailwind configuration)
+-  Reusable React components
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Tech Stack
+
+- **React** – Component-based JavaScript library
+- **Tailwind CSS** – Utility-first CSS framework for rapid UI development
+- **Vite / Create React App** – For local development (depending on your setup)
+
+---
+
+##  Folder Structure
+
+```bash
+
+src/
+├── assets/ 
+├── components/ Nav, ShoeCard)
+├── sections/ 
+├── constants/
+├── App.jsx
+├── main.jsx
+```
+
+##  Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/SHANKAR-YADAVA/Nike_shoes_store.git
+```
+
+
+
+### 2. Install Dependencies
+```bash
+npm install 
+```
+
+### 3 .Start the server 
+```bash
+npm run dev
+```
+
+
